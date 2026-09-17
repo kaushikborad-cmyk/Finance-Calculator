@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-01-01",
+  "schemes": [
+    {
+      "id": "PPF",
+      "name": "Public Provident Fund",
+      "shortName": "PPF",
+      "minInvestment": 500,
+      "maxInvestment": 150000,
+      "tenureYears": 15,
+      "interestRate": 7.1,
+      "compoundingFrequency": "ANNUAL",
+      "interestCalculationBasis": "LOWEST_BAL_5TH_TO_31ST",
+      "source": "Ministry of Finance, Govt of India",
+      "sourceUrl": "https://www.nsiindia.gov.in"
+    },
+    {
+      "id": "SCSS",
+      "name": "Senior Citizens Savings Scheme",
+      "shortName": "SCSS",
+      "minInvestment": 1000,
+      "maxInvestment": 3000000,
+      "tenureYears": 5,
+      "interestRate": 8.2,
+      "compoundingFrequency": "QUARTERLY_PAYOUT",
+      "interestCalculationBasis": "SIMPLE_QUARTERLY",
+      "source": "India Post",
+      "sourceUrl": "https://www.indiapost.gov.in"
+    },
+    {
+      "id": "SSY",
+      "name": "Sukanya Samriddhi Yojana",
+      "shortName": "Sukanya",
+      "minInvestment": 250,
+      "maxInvestment": 150000,
+      "tenureYears": 21,
+      "depositTenureYears": 15,
+      "interestRate": 8.2,
+      "compoundingFrequency": "ANNUAL",
+      "interestCalculationBasis": "MONTHLY_LOWEST_BAL",
+      "source": "National Savings Institute",
+      "sourceUrl": "https://www.nsiindia.gov.in"
+    },
+    {
+      "id": "NSC",
+      "name": "National Savings Certificate",
+      "shortName": "NSC",
+      "minInvestment": 1000,
+      "maxInvestment": -1,
+      "tenureYears": 5,
+      "interestRate": 7.7,
+      "compoundingFrequency": "ANNUAL_REINVESTED",
+      "interestCalculationBasis": "COMPOUND_ANNUAL",
+      "source": "Department of Economic Affairs",
+      "sourceUrl": "https://rea.gov.in"
+    },
+    {
+      "id": "KVP",
+      "name": "Kisan Vikas Patra",
+      "shortName": "KVP",
+      "minInvestment": 1000,
+      "maxInvestment": -1,
+      "maturityMonths": 115,
+      "interestRate": 7.5,
+      "compoundingFrequency": "ANNUAL",
+      "interestCalculationBasis": "DOUBLING_PERIOD",
+      "source": "India Post",
+      "sourceUrl": "https://www.indiapost.gov.in"
+    }
+  ]
+}
